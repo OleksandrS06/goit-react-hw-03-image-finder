@@ -54,7 +54,7 @@ export class App extends Component {
   };
 
   render() {
-    const { images, request, totalImages, loading, error } = this.state;
+    const { images, totalImages, loading, error } = this.state;
     const showLoadMore = images.length !== totalImages && !loading;
     return (
       <div className="App">
